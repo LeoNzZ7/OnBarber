@@ -4,4 +4,8 @@
 
 * {
     transition: all ease .35s;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
