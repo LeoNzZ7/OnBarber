@@ -2,7 +2,7 @@ import { Calendar, GoogleChromeLogo, Ruler, Scissors } from "phosphor-react"
 
 export const Services = () => {
     return (
-        <div className="bg-black pb-[50px] flex border-t-2 border-b-2 border-[#333] justify-center items-center flex-col" >
+        <div className="bg-black pb-[50px] h-[500px] flex border-t-2 border-b-2 border-[#333] justify-center items-center flex-col" >
             <h1 className="font-bold text-[30px] text-white my-[20px]" >
                 Serviços
             </h1>
