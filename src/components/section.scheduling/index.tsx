@@ -1,6 +1,6 @@
 export const Scheduling = () => {
     return (
-        <div className="border-t-2 border-b-2 border-[#333] bg-black h-[650px] flex flex-col items-center justify-center">
+        <div className="border-t-[1px] border-b-[1px] border-[#222] bg-black py-20 flex flex-col items-center justify-center">
             <h1 className="text-white text-4xl font-bold">
                 Agendamento
             </h1>
@@ -21,8 +21,8 @@ export const Scheduling = () => {
                     <option value={'sobrancelha'}>Corte básico na tesoura</option>
                     <option value={'sobrancelha'}>Cabelo e barba R$ 75.00</option>
                 </select>
-                <textarea placeholder="Algo a adicionar?" className="max-w-full mt-5 min-w-full border-[1px] border-white min-h-[200px] bg-transparent max-h-[200px] placeholder:text-white focus:border-2 text-white focus:border-[#FFA500] focus:ring-[#FFA500]" />
-                <button className="text-white bg-[#FFA500] py-[10px] rounded-xl border-2 border-black font-bold mt-[20px]" >Agendar horário</button>
+                <textarea placeholder="Algo a adicionar?" className="max-w-full mt-5 min-w-full border-[1px] border-white min-h-[200px] bg-transparent max-h-[200px] placeholder:text-white focus:border-2 text-white focus:border-[#FFA500] focus:ring-[#FFA500]"/>
+                <button className="text-white bg-[#FFA500] hover:bg-[#EE9400] py-[10px] rounded-xl border-2 border-black font-bold mt-[20px]" >Agendar horário</button>
             </form>
         </div>
     );

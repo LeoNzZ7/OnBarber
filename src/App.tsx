@@ -1,5 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import { Widget } from "./components/feedget/widget";
+import { About } from "./components/section.about";
 import { PrimaryContent } from "./components/section.primary";
 import { Header } from "./components/section.primary/header";
 import { Scheduling } from "./components/section.scheduling";
@@ -22,8 +23,8 @@ const App = () => {
           <Services/>
           <Scheduling/>
         </main>
-        <footer>
-
+        <footer className="bg-black" >
+          <About/>
         </footer>
         <Widget/>
       </div>
