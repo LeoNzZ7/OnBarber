@@ -7,12 +7,8 @@ OnBarber é um site de agendamento de barbeiro.
 # 🚀 Tecnologias utilizadas
 ### ✔ Typescript
 ### ✔ ReactJs
-### ✔ React-redux
-### ✔ Reduxjs/toolkit
-### ✔ Styled-components
-### ✔ Headlessui/react
+### ✔ Tailwindcss
 ### ✔ React-router-dom
-### ✔ Hooks
 
 # 👨‍💻 Autor
 <div style='display' display='inline-block'><br> 
